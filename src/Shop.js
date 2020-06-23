@@ -8,6 +8,7 @@ import image2 from './assets/shoescropped.jpg';
 import image3 from './assets/heelscropped.jpg';
 import image4 from './assets/bagscropped.jpg';
 import image5 from './assets/watchescropped.jpg';
+import Footer from './components/Footer';
 
 const Shop = () => (
     <div>
@@ -32,6 +33,7 @@ const Shop = () => (
             </p>
             <p></p>
         </Layout>
+        <Footer />
     </div>
 )
 

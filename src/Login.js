@@ -90,6 +90,11 @@ class Login extends Component {
                             <NavLink to="/sign-up">Don't have an account? Sign up here.
                             </NavLink>
                         </Nav.Item>
+                        <p></p>
+                        <Nav.Item>
+                            <NavLink to="/">Back to home
+                            </NavLink>
+                        </Nav.Item>
                         {/* <a href="/sign-up">Sign Up</a>
                         <span className="p-2">|</span>
                         <a href="/forgot-password">Forgot Password</a> */}

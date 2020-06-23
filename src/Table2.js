@@ -5,7 +5,9 @@ class Table2 extends Component {
         // console.log(this.props.usersCollection)
         return (
             <div className="wrapper-users">
-                <h2 className="text-center">List User</h2>
+                <p></p>
+                <h3 className="text-center">List User</h3>
+                <p></p>
                 <div className="container">
                     <table className="table table-striped table-dark">
                         <thead className="thead-dark">
@@ -34,8 +36,10 @@ class Table2 extends Component {
                                                 {obj.password}
                                             </td>
                                             <td>
-                                                <button type="submit" onClick={() => this.props.handleRemove(obj.id)}>Delete</button>
-                                                <button type="submit">Edit</button>
+                                                <button className="btn-md btn-warning btn-user" type="submit">Edit</button>
+
+                                                <button className="btn-md btn-danger btn-user" type="submit" 
+                                                onClick={() => this.props.handleRemove(obj.id)}>Delete</button>
                                             </td>
                                         </tr>
                                     );

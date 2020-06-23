@@ -4,6 +4,7 @@ import NavigationBar from './components/NavigationBar';
 import Jumbotron from './components/Jumbotron';
 import './App.css';
 import SimpleSlider from './SimpleSlider';
+import Footer from './components/Footer';
 
 const Home = () => (
     <div>
@@ -19,6 +20,8 @@ const Home = () => (
 
             <p>A fan brush can be your best friend. Exercising the imagination, experimenting with talents, being creative; these things, to me, are truly the windows to your soul. Every highlight needs it's own personal shadow.</p> */}
         </Layout>
+        <br />
+        <Footer />
     </div>
 )
 
